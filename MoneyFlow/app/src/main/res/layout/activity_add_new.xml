@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fikrihaikal.moneyflow.AddNew">
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:id="@+id/rbgr_jenis"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/rb_pemasukan"
+                    android:text="@string/pemasukan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/rb_pengeluaran"
+                    android:text="@string/pengeluaran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/ed_nominal"
+            android:hint="@string/masukan_nominal"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_waktu"
+            android:text="Waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_tanggal"
+                android:text="UBAH Tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_waktu"
+                android:text="ubah waktu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    <Button
+        android:id="@+id/btn_image"
+        android:text="@string/upload_bukti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/img_bukti"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ed_keteranganya"
+        android:hint="keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+    <Button
+        android:id="@+id/btn_save"
+        android:text="@string/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

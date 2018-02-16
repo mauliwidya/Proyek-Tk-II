@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Money Flow</string>
+    <string name="title_activity_main_page">Money Flow</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="masukan_nominal">Masukan Nominal</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="upload_bukti">Upload Bukti</string>
+    <string name="save">Save</string>
+</resources>

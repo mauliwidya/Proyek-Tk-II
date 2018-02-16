@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fikrihaikal.moneyflow.DetailAnggaran">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="Jenis : "/>
+
+            <TextView
+                android:id="@+id/tv_jenisnya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/info"
+                android:layout_toRightOf="@+id/info"
+                android:text="jenisnya"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="Nominal : "/>
+
+            <TextView
+                android:id="@+id/tv_nominalnya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/info2"
+                android:layout_toRightOf="@+id/info2"
+                android:text="jenisnya"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_waktune"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text=" : "/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_keterangane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="keterangan e"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
